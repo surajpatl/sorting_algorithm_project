@@ -1,0 +1,95 @@
+#container {
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  margin-top: 250px;
+}
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #222831;
+}
+
+.title{
+  color: #8109b7;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  background-color: #393e46;
+  padding:10px;
+  position: fixed;
+  border:  1px solid #8109b7;
+  
+}
+
+.bar {
+  width: 30px;
+  background-color: #d5def5;
+  margin: 3px;
+  justify-content: space-around;
+  
+}
+p {
+  display: flex;
+  font-size: 20px;
+  position: relative;
+  margin: 0;
+  justify-content: space-around;
+  
+}
+
+.btns{
+    justify-content: space-between;
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+}
+
+.btns button{
+  margin: 7px;
+  
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  will-change: box-shadow,transform;
+  background: radial-gradient( 100% 100% at 100% 0%, #89E5FF 0%, #5468FF 100% );
+  box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px rgb(58 65 111 / 50%);
+  padding: 0 32px;
+  border-radius: 6px;
+  color: #fff;
+  height: 48px;
+  font-size: 18px;
+  text-shadow: 0 1px 0 rgb(0 0 0 / 40%);
+  transition: box-shadow 0.15s ease,transform 0.15s ease;
+}
+
+button:hover {
+  box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #3c4fe0;
+  transform: translateY(-2px);
+}
+button:active{
+  box-shadow: inset 0px 3px 7px #3c4fe0;
+  transform: translateY(2px);
+}
+
+.dropDown{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+label{
+  font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    color:  #3c4fe0;
+}
+
+

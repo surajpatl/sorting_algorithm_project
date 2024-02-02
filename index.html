@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorting Algorithm</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <h1 class="title">Sorting Algorithm</h1>
+      <div class="dropDown">
+        <label for="arraySize">Select Array Size:</label>
+        <select id="arraySize" onchange="changeArraySize()">
+          <option value="5" selected>5</option>
+          <option value="10">10</option>
+          <option value="15">15</option>
+          <option value="20">20</option>
+          <option value="25">25</option>
+          <option value="30">30</option>
+        </select> 
+      </div>  
+      <div id="container">
+      </div>
+        <br>
+       <div class="btns"> 
+        <button type="button" onclick="init()">Randomize Array</button>
+        <button type="button" class="bubbleSort">Bubble Sort</button>
+        <button type="button" class="insertionSort">Insertion sort</button>
+        <button type="button" class="selectionSort">Selection Sort</button>
+        <button type="button" class="quickSort">Quick Sort </button>
+        <button type="button" class="mergeSort">Merge Sort</button>
+        <button type="button" class="shellSort">Shell Sort</button>
+      </div>
+    </div>
+
+    <script src="./scipt.js"></script>
+    <script src="./algo.js"></script>
+    
+
+  </body>
+</html>
